@@ -4,6 +4,7 @@ import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
 import about_image from './about_image.png'
+import doc18 from "./doc18.png"
 import logo_doc from './logo_doc.svg'
 // import logo from "./logo.svg"
 import dropdown_icon from './dropdown_icon.svg'
@@ -294,6 +295,20 @@ export const doctors = [
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
+            line2: 'Circle, Ring Road, London'
+        }
+    },
+    {
+        _id: 'doc18',
+        name: 'Dr. Mohammad Kaif',
+        image: doc18,
+        speciality: 'Gastroenterologist',
+        degree: 'MBBS',
+        experience: '4 Years',
+        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        fees: 50,
+        address: {
+            line1: '17th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
         }
     },
